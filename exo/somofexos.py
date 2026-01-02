@@ -1,11 +1,11 @@
 # Ask the user for a number and print its multiplication table (1 to 10). in python
 
-# number = int(input("Enter a number: "))
-# print(f"Multiplication table of {number}:")
+number = int(input("Enter a number: "))
+print(f"Multiplication table of {number}:")
 
-# for i in range(1, 11):
-#    print(f"{number} x {i} = {number * i}")
-#    print( "number  * " , i , " =  " , number * i)
+for i in range(1, 11):
+   print(f"{number} x {i} = {number * i}")
+   print( "number  * " , i , " =  " , number * i)
 
 
 
